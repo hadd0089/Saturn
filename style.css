@@ -59,7 +59,7 @@ p{
 nav a, nav a:link, nav a:visited{
     color: gold;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 nav a:hover, nav a:active{
@@ -68,13 +68,14 @@ nav a:hover, nav a:active{
 
 nav ul{
     background-color: #444;
+    text-align: center;
 }
 
 nav li{
-    float: left;
     font-family: Calibri;
-     padding: 1rem 1rem;
+    padding: 1rem 1rem;
     list-style-type: none;
+    display: inline-block;
 }
 
 #wrapper{
@@ -92,7 +93,7 @@ nav li{
     display: inline-block;
     background-color: #444;
     border-bottom: 14px solid #666;
-    width: 925px;    
+    width: 100%;    
 }
 
 #footer{
